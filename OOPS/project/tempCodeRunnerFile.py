@@ -1,0 +1,5 @@
+print(f"Name : {userdata[0]['name']}")
+            # print(f"Age : {userdata[0]['age']}")
+            # print(f"Email : {userdata[0]['email']}")
+            # print(f"Account Number : {userdata[0]['accountno.']}")
+            # print(f"Balance : {userdata[0]['balance']}")
