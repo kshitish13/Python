@@ -1,0 +1,48 @@
+dim_hotels : represents all the hotels atliq grands have along with category and city
+dim_rooms : represents all types of rooms atliq grands provide alg with room id
+dim_data : reprents date's daytype and week no.
+fact_bookings : gives all the booking details like (no. of guest,booking platform,check out,etc)
+fact_aggregated_booking : gives day wise booking of each property(hotel)
+
+
+
+
+
+
+A dimension table stores descriptive information about an entity. It provides the meaning and context for data.
+Examples:
+- Customer: customer name, city, age group
+- Product: product name, category, brand
+- Date: day, month, year, weekday
+- Store: store name, location, region
+Dimension tables usually have a primary key, such as customer_id or product_id.
+A fact table stores events, transactions, or measurements. It contains numbers that can be calculated, summed, averaged, or counted.
+Examples:
+- Sales transaction: quantity sold, sales amount, discount
+- Attendance record: hours present
+- Booking: number of guests, room charges
+- Website visit: page views, session duration
+A fact table usually contains foreign keys that connect it to dimension tables.
+Example: sales system
+
+
+
+
+dim_customer
+customer_id | customer_name | city
+
+dim_product
+product_id | product_name | category
+
+dim_date
+date_id | month | year
+
+fact_sales
+sale_id | customer_id | product_id | date_id | quantity | sales_amount
+
+
+
+
+Here:
+- fact_sales records each sales event and its measurable values.
+- dim_customer, dim_product, and dim_date explain who bought, what was bought, and when it was bought.

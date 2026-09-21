@@ -1,0 +1,10 @@
+2026-09-18 21:02:41,766 - INFO - User Kshitish logged in
+2026-09-18 21:02:41,766 - ERROR - Error processing data: Invalid data
+Traceback (most recent call last):
+  File "C:\code\Python\python-advanced\logging\logging_2.py", line 18, in process_data
+    raise ValueError("Invalid data")
+ValueError: Invalid data
+2026-09-18 21:02:41,767 - INFO - User Kshitish logged out
+2026-09-18 21:03:11,082 - INFO - User Kshitish logged in
+2026-09-18 21:03:11,082 - INFO - Data processed: good_data
+2026-09-18 21:03:11,082 - INFO - User Kshitish logged out

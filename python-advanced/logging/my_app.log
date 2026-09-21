@@ -1,0 +1,14 @@
+2026-09-19 00:51:43,241 - __main__ - DEBUG - debug message
+2026-09-19 00:51:43,241 - __main__ - INFO - info message
+2026-09-19 00:52:27,061 - mylogger - DEBUG - debug message
+2026-09-19 00:52:27,061 - mylogger - INFO - info message
+2026-09-19 00:52:55,314 - mylogger - DEBUG - debug message
+2026-09-19 00:52:55,314 - mylogger - INFO - info message
+2026-09-19 00:52:55,314 - mylogger - WARNING - warning message
+2026-09-19 00:52:55,314 - mylogger - ERROR - error message
+2026-09-19 00:52:55,314 - mylogger - CRITICAL - critical message
+2026-09-19 00:53:05,908 - payment_processor - DEBUG - debug message
+2026-09-19 00:53:05,908 - payment_processor - INFO - info message
+2026-09-19 00:53:05,908 - payment_processor - WARNING - warning message
+2026-09-19 00:53:05,908 - mylogger - ERROR - error message
+2026-09-19 00:53:05,909 - mylogger - CRITICAL - critical message
