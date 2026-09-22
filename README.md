@@ -210,36 +210,10 @@ python-learning/
 
 Projects will be added here as I progress through my learning journey.
 
-| Project | Description | Technologies |
-|---|---|---|
-| 🔜 Project 1 | Coming Soon | Python |
-| 🔜 Project 2 | Coming Soon | Python, MySQL |
-| 🔜 Project 3 | Coming Soon | FastAPI, Python |
+
 
 ---
 
-## 📈 Progress
-
-- [x] Python Basics
-- [x] Functions
-- [x] Data Structures
-- [x] Exception Handling
-- [x] File Handling
-- [x] JSON
-- [x] Iterators & Generators
-- [x] Decorators
-- [x] Logging
-- [x] APIs
-- [x] MySQL Integration
-- [x] Pydantic
-- [x] Pytest Basics
-- [ ] Advanced Testing
-- [ ] Async Python
-- [ ] Advanced FastAPI
-- [ ] Advanced Database Integration
-- [ ] Production Projects
-
----
 
 ## 🧠 Learning Approach
 
@@ -254,68 +228,6 @@ Instead of only following tutorials, I'm using this repository to:
 7. Apply the concept in larger projects
 
 The repository will continue to evolve as my Python skills improve.
-
----
-
-## 🔧 Running the Code
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/python-learning.git
-```
-
-Move into the project:
-
-```bash
-cd python-learning
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate it on Windows:
-
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-Install dependencies when required:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run a Python file:
-
-```bash
-python filename.py
-```
-
----
-
-## 🔐 Environment Variables
-
-If a project requires API keys, passwords, or other secrets, they should **never be committed to GitHub**.
-
-Example:
-
-```env
-API_KEY=your_api_key
-DATABASE_PASSWORD=your_password
-```
-
-Use a `.env` file locally and add it to `.gitignore`:
-
-```gitignore
-.env
-.venv/
-__pycache__/
-*.pyc
-```
 
 ---
 
