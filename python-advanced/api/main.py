@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from enum import Enum
 
 
+
 app=FastAPI()
 
 @app.get("/hello") #it is the end point of the url if u add "/hello" at the end of the url it will run the below func'''
